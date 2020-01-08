@@ -1,0 +1,10 @@
+[package]
+name = "bidule-test"
+version = "0.1.0"
+authors = ["Dimitri Sabadie <dimitri.sabadie@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+bidule = { version = "0.1", path = "../bidule" }
+luminance = "0.30"
+luminance-glfw = "0.5"
